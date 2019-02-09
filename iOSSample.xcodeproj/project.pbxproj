@@ -9,8 +9,8 @@
 /* Begin PBXBuildFile section */
 		3209A155DE0434E463D9A4CE /* Pods_iOSSampleUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 443FFD6D3ABCB6D645314627 /* Pods_iOSSampleUITests.framework */; };
 		BE5648CDCD6A3C94B808FA24 /* Pods_iOSSample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A687054C2790EDF0913DD55 /* Pods_iOSSample.framework */; };
+		D300BD8F220E8CFF00B78FB8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D300BD8E220E8CFF00B78FB8 /* ViewController.swift */; };
 		D3D88A81220CF54A00232ED0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3D88A80220CF54A00232ED0 /* AppDelegate.swift */; };
-		D3D88A83220CF54A00232ED0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3D88A82220CF54A00232ED0 /* ViewController.swift */; };
 		D3D88A86220CF54A00232ED0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3D88A84220CF54A00232ED0 /* Main.storyboard */; };
 		D3D88A88220CF54C00232ED0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3D88A87220CF54C00232ED0 /* Assets.xcassets */; };
 		D3D88A8B220CF54C00232ED0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3D88A89220CF54C00232ED0 /* LaunchScreen.storyboard */; };
@@ -46,9 +46,9 @@
 		96378A757535EFA731DEB9F8 /* Pods-iOSSample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSSample.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iOSSample/Pods-iOSSample.debug.xcconfig"; sourceTree = "<group>"; };
 		98B5F722985244EE008260ED /* Pods-iOSSampleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSSampleTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iOSSampleTests/Pods-iOSSampleTests.debug.xcconfig"; sourceTree = "<group>"; };
 		A2E09CF759D1C8232F851667 /* Pods-iOSSampleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSSampleTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-iOSSampleTests/Pods-iOSSampleTests.release.xcconfig"; sourceTree = "<group>"; };
+		D300BD8E220E8CFF00B78FB8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		D3D88A7D220CF54A00232ED0 /* iOSSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3D88A80220CF54A00232ED0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D3D88A82220CF54A00232ED0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		D3D88A85220CF54A00232ED0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D3D88A87220CF54C00232ED0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D3D88A8A220CF54C00232ED0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -138,7 +138,7 @@
 			isa = PBXGroup;
 			children = (
 				D3D88A80220CF54A00232ED0 /* AppDelegate.swift */,
-				D3D88A82220CF54A00232ED0 /* ViewController.swift */,
+				D300BD8E220E8CFF00B78FB8 /* ViewController.swift */,
 				D3D88A84220CF54A00232ED0 /* Main.storyboard */,
 				D3D88A87220CF54C00232ED0 /* Assets.xcassets */,
 				D3D88A89220CF54C00232ED0 /* LaunchScreen.storyboard */,
@@ -391,7 +391,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D3D88A83220CF54A00232ED0 /* ViewController.swift in Sources */,
+				D300BD8F220E8CFF00B78FB8 /* ViewController.swift in Sources */,
 				D3D88A81220CF54A00232ED0 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
